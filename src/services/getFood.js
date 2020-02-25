@@ -6,7 +6,7 @@ const apiKey = Secrets.apiKey;
 
 const axios = require('axios');
 
-const getFood = (foodString) => {
+const getFood = async (foodString) => {
     const endpoint = baseUrl + "/natural/nutrients";
     const headers = {
         'x-app-id': applicationId,
@@ -14,18 +14,13 @@ const getFood = (foodString) => {
         'Content-Type': 'application/json'
     }
 
-    axios.post(endpoint, {
-        query: foodString
-    }, {
-        headers: headers
-    })
-    .then((response) => {
-        return response.data;
-    })
-    .catch((error) => {
-        console.log(error)
-        return error
-    });
+    var res = await axios.post(
+        endpoint, 
+        { query: foodString },
+        { headers: headers }
+    )
+
+    return res.data.foods;
 };
 
 export default getFood;
