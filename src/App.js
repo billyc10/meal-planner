@@ -4,6 +4,7 @@ import getFood from './services/getFood.js';
 
 function App() {
     const [foods, setFoods] = useState([]);
+    const [search, setSearch] = useState('');
     const [query, setQuery] = useState('stock');
 
     useEffect(() => {
@@ -13,7 +14,7 @@ function App() {
         };
 
         fetchData();
-    }, []);
+    }, [query]);
 
     const displayFoods = () => {
         return foods.map( (food) => foodBlock(food));
@@ -26,18 +27,21 @@ function App() {
     };
 
     const handleChange = (event) => {
-        event.preventDefault();
-        console.log(event.target);
-        setQuery(event.target.value)
-        console.log(query);
+        setSearch(event.target.value)
     };
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        console.log(event);
+        setQuery(search);
+    }
 
   	return (
     	<div className="AppBackground">
             <div className="SearchInput">
-                <form>
+                <form onSubmit={handleSubmit}>
                     <label>
-                        Food: <input type="text" value={query} onChange={handleChange}/>
+                        search food: <input type="text" value={search} onChange={handleChange}/>
                     </label>
                 </form>
             </div>
