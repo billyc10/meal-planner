@@ -5,7 +5,7 @@ import getFood from './services/getFood.js';
 function App() {
     const [foods, setFoods] = useState([]);
     const [search, setSearch] = useState('');
-    const [query, setQuery] = useState('stock');
+    const [query, setQuery] = useState('');
 
     useEffect(() => {
         const fetchData = async () => {
@@ -32,7 +32,6 @@ function App() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log(event);
         setQuery(search);
     }
 
