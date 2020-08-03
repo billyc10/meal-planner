@@ -1,4 +1,4 @@
-A natural language search for nutritional information of a recipe
+A natural language search for nutritional information of ingredients in a recipe
 =============================================================================================================
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
