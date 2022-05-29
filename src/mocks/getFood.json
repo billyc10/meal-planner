@@ -1,0 +1,202 @@
+{
+    "request": {
+        "method": "POST",
+        "path": "/natural/nutrients"
+    },
+    "response": {
+        "body": {
+            "foods": [
+                {
+                    "food_name": "soy milk",
+                    "brand_name": null,
+                    "serving_qty": 1,
+                    "serving_unit": "cup",
+                    "serving_weight_grams": 243,
+                    "nf_calories": 99.63,
+                    "nf_total_fat": 4.01,
+                    "nf_saturated_fat": 0.5,
+                    "nf_cholesterol": 0,
+                    "nf_sodium": 119.07,
+                    "nf_total_carbohydrate": 7.99,
+                    "nf_dietary_fiber": 0.97,
+                    "nf_sugars": 6,
+                    "nf_protein": 7,
+                    "nf_potassium": 298.89,
+                    "nf_p": null,
+                    "full_nutrients": [
+                        {
+                            "attr_id": 203,
+                            "value": 6.9984
+                        },
+                        {
+                            "attr_id": 204,
+                            "value": 4.0095
+                        },
+                        {
+                            "attr_id": 205,
+                            "value": 7.9947
+                        },
+                        {
+                            "attr_id": 207,
+                            "value": 1.5795
+                        },
+                        {
+                            "attr_id": 208,
+                            "value": 99.63
+                        },
+                        {
+                            "attr_id": 255,
+                            "value": 222.4179
+                        },
+                        {
+                            "attr_id": 268,
+                            "value": 417.96
+                        },
+                        {
+                            "attr_id": 269,
+                            "value": 6.0021
+                        },
+                        {
+                            "attr_id": 291,
+                            "value": 0.972
+                        },
+                        {
+                            "attr_id": 301,
+                            "value": 298.89
+                        },
+                        {
+                            "attr_id": 303,
+                            "value": 1.0692
+                        },
+                        {
+                            "attr_id": 304,
+                            "value": 38.88
+                        },
+                        {
+                            "attr_id": 306,
+                            "value": 298.89
+                        },
+                        {
+                            "attr_id": 307,
+                            "value": 119.07
+                        },
+                        {
+                            "attr_id": 309,
+                            "value": 0.6075
+                        },
+                        {
+                            "attr_id": 317,
+                            "value": 5.589
+                        },
+                        {
+                            "attr_id": 318,
+                            "value": 500.58
+                        },
+                        {
+                            "attr_id": 324,
+                            "value": 119.07
+                        },
+                        {
+                            "attr_id": 328,
+                            "value": 2.916
+                        },
+                        {
+                            "attr_id": 401,
+                            "value": 0
+                        },
+                        {
+                            "attr_id": 405,
+                            "value": 0.5103
+                        },
+                        {
+                            "attr_id": 417,
+                            "value": 24.3
+                        },
+                        {
+                            "attr_id": 418,
+                            "value": 2.9889
+                        },
+                        {
+                            "attr_id": 432,
+                            "value": 24.3
+                        },
+                        {
+                            "attr_id": 601,
+                            "value": 0
+                        },
+                        {
+                            "attr_id": 605,
+                            "value": 0
+                        },
+                        {
+                            "attr_id": 606,
+                            "value": 0.5006
+                        }
+                    ],
+                    "nix_brand_name": null,
+                    "nix_brand_id": null,
+                    "nix_item_name": null,
+                    "nix_item_id": null,
+                    "upc": null,
+                    "consumed_at": "2022-05-29T04:58:53+00:00",
+                    "metadata": {
+                        "is_raw_food": false
+                    },
+                    "source": 1,
+                    "ndb_no": 16235,
+                    "tags": {
+                        "item": "soy milk",
+                        "measure": null,
+                        "quantity": "1.0",
+                        "food_group": 1,
+                        "tag_id": 814
+                    },
+                    "alt_measures": [
+                        {
+                            "serving_weight": 243,
+                            "measure": "cup",
+                            "seq": 1,
+                            "qty": 1
+                        },
+                        {
+                            "serving_weight": 100,
+                            "measure": "g",
+                            "seq": null,
+                            "qty": 100
+                        },
+                        {
+                            "serving_weight": 28.3495,
+                            "measure": "wt. oz",
+                            "seq": null,
+                            "qty": 1
+                        },
+                        {
+                            "serving_weight": 5.06,
+                            "measure": "tsp",
+                            "seq": 101,
+                            "qty": 1
+                        },
+                        {
+                            "serving_weight": 15.19,
+                            "measure": "tbsp",
+                            "seq": 102,
+                            "qty": 1
+                        }
+                    ],
+                    "lat": null,
+                    "lng": null,
+                    "meal_type": 5,
+                    "photo": {
+                        "thumb": "https://nix-tag-images.s3.amazonaws.com/814_thumb.jpg",
+                        "highres": "https://nix-tag-images.s3.amazonaws.com/814_highres.jpg",
+                        "is_user_uploaded": false
+                    },
+                    "sub_recipe": null,
+                    "class_code": null,
+                    "brick_code": null,
+                    "tag_id": null
+                }
+            ]
+        }
+    }
+}
